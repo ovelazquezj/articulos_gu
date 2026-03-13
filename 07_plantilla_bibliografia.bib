@@ -1,0 +1,181 @@
+% =============================================================================
+% BIBLIOTECA DE REFERENCIAS - PLANTILLA
+% Proyecto: [Nombre del Proyecto]
+% Autor: [Tu nombre]
+% Última actualización: [Fecha]
+% =============================================================================
+%
+% INSTRUCCIONES DE USO:
+% 1. Exportar desde Zotero en formato BibTeX
+% 2. Revisar que cada entrada tenga los campos obligatorios
+% 3. Agregar campos personalizados (keywords, note) manualmente si es necesario
+% 4. Hacer commit con mensaje descriptivo cada vez que se modifique
+%
+% CONVENCIONES DE CLAVES:
+% - Formato: ApellidoAño (ej: Huang2025)
+% - Si hay conflicto: ApellidoAñoLetra (ej: Huang2025a, Huang2025b)
+% - Para múltiples autores: PrimerApellidoAño (ej: Farquhar2024)
+%
+% =============================================================================
+
+% -----------------------------------------------------------------------------
+% ARTÍCULOS DE REVISTA (article)
+% -----------------------------------------------------------------------------
+
+@article{Huang2025,
+  author    = {Huang, Lei and Yu, Weijiang and Ma, Weihong and Zhong, Wanyu and 
+               Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and 
+               Feng, Xiaochun and Qin, Bing and Liu, Ting},
+  title     = {A Survey on Hallucination in Large Language Models: Principles, 
+               Taxonomy, Challenges, and Open Questions},
+  journal   = {ACM Transactions on Information Systems},
+  year      = {2025},
+  volume    = {43},
+  number    = {1},
+  pages     = {1--55},
+  doi       = {10.1145/3703155},
+  keywords  = {central, metodologia, peer-review, leido},
+  note      = {Survey comprehensivo sobre alucinaciones. Taxonomía útil para 
+               clasificar tipos de errores. Sección 3 especialmente relevante.}
+}
+
+@article{Farquhar2024,
+  author    = {Farquhar, Sebastian and Kossen, Jannik and Kuhn, Lorenz and Gal, Yarin},
+  title     = {Detecting Hallucinations in Large Language Models Using Semantic Entropy},
+  journal   = {Nature},
+  year      = {2024},
+  volume    = {630},
+  pages     = {625--630},
+  doi       = {10.1038/s41586-024-07421-0},
+  keywords  = {central, metodologia, peer-review, leido},
+  note      = {Método de entropía semántica para detectar confabulaciones. 
+               Aplicable a validación de outputs en el pipeline.}
+}
+
+% -----------------------------------------------------------------------------
+% PREPRINTS (misc o unpublished)
+% -----------------------------------------------------------------------------
+
+@misc{Xu2025,
+  author    = {Xu, Ziwei and Jain, Sanjay and Kankanhalli, Mohan},
+  title     = {Hallucination is Inevitable: An Innate Limitation of Large Language Models},
+  year      = {2025},
+  eprint    = {2401.11817v2},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2401.11817},
+  keywords  = {central, teoria, preprint, leido},
+  note      = {Argumento formal sobre inevitabilidad de alucinaciones usando 
+               teoría del aprendizaje. Importante para marco teórico.}
+}
+
+@misc{Schulhoff2025,
+  author    = {Schulhoff, Sander and Ilie, Michael and Balepur, Nishant and others},
+  title     = {The Prompt Report: A Systematic Survey of Prompt Engineering Techniques},
+  year      = {2025},
+  eprint    = {2406.06608v6},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2406.06608},
+  keywords  = {central, metodologia, preprint, referencia-rapida},
+  note      = {Taxonomía de 58 técnicas de prompting. Usar como referencia 
+               para diseño de prompts en etapa 4.}
+}
+
+% -----------------------------------------------------------------------------
+% CONFERENCIAS (inproceedings)
+% -----------------------------------------------------------------------------
+
+@inproceedings{EjemploConferencia2024,
+  author    = {Apellido, Nombre and Otro, Autor},
+  title     = {Título del Paper de Conferencia},
+  booktitle = {Proceedings of the Conference Name},
+  year      = {2024},
+  pages     = {100--110},
+  publisher = {Publisher},
+  address   = {Ciudad, País},
+  doi       = {10.xxxx/xxxxx},
+  keywords  = {soporte, herramienta, peer-review, por-leer},
+  note      = {[Notas sobre relevancia]}
+}
+
+% -----------------------------------------------------------------------------
+% LIBROS (book)
+% -----------------------------------------------------------------------------
+
+@book{EjemploLibro2024,
+  author    = {Apellido, Nombre},
+  title     = {Título del Libro},
+  publisher = {Editorial},
+  year      = {2024},
+  address   = {Ciudad},
+  edition   = {2},
+  isbn      = {XXX-X-XXXX-XXXX-X},
+  keywords  = {contexto, teoria, referencia-rapida},
+  note      = {[Notas sobre capítulos relevantes]}
+}
+
+% -----------------------------------------------------------------------------
+% CAPÍTULOS DE LIBRO (incollection)
+% -----------------------------------------------------------------------------
+
+@incollection{EjemploCapitulo2024,
+  author    = {Apellido, Nombre},
+  title     = {Título del Capítulo},
+  booktitle = {Título del Libro},
+  publisher = {Editorial},
+  year      = {2024},
+  editor    = {Editor, Nombre},
+  pages     = {50--75},
+  keywords  = {soporte, teoria, por-leer},
+  note      = {[Notas]}
+}
+
+% -----------------------------------------------------------------------------
+% TESIS (mastersthesis, phdthesis)
+% -----------------------------------------------------------------------------
+
+@phdthesis{EjemploTesis2024,
+  author    = {Apellido, Nombre},
+  title     = {Título de la Tesis Doctoral},
+  school    = {Universidad},
+  year      = {2024},
+  address   = {Ciudad, País},
+  type      = {PhD Thesis},
+  keywords  = {contexto, metodologia, grey-lit, por-leer},
+  note      = {[Notas sobre relevancia]}
+}
+
+% -----------------------------------------------------------------------------
+% REPORTES TÉCNICOS (techreport)
+% -----------------------------------------------------------------------------
+
+@techreport{EjemploReporte2024,
+  author      = {Organización},
+  title       = {Título del Reporte},
+  institution = {Institución},
+  year        = {2024},
+  number      = {TR-2024-001},
+  url         = {https://ejemplo.com/reporte.pdf},
+  keywords    = {datos, grey-lit, referencia-rapida},
+  note        = {[Notas]}
+}
+
+% -----------------------------------------------------------------------------
+% RECURSOS WEB (online o misc)
+% -----------------------------------------------------------------------------
+
+@online{DigitalPromise2025,
+  author    = {{Digital Promise}},
+  title     = {Surveying the AI Landscape: Emerging Patterns in Higher Education Research},
+  year      = {2025},
+  url       = {https://digitalpromise.org/2025/07/31/surveying-the-ai-landscape-emerging-patterns-in-higher-education-research/},
+  urldate   = {2025-03-12},
+  keywords  = {soporte, datos, grey-lit, leido},
+  note      = {Estadísticas sobre uso de IA en educación superior. 
+               Dato clave: 86% de estudiantes usan IA.}
+}
+
+% =============================================================================
+% FIN DEL ARCHIVO
+% =============================================================================
